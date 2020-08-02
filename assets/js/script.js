@@ -1,6 +1,14 @@
-$(document).on('click', 'a[href^="#"]', function(e) {
-    e.preventDefault();
-    $('html, body').stop().animate({
-        scrollTop: $($(this).attr('href')).offset().top
-    }, 500, 'linear');
+//Smooth scroll  jquery
+$(function() {
+    $("a").click(function(event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+            var gato = this.hash;
+            $('html, body').animate({
+                scrollTop: $(gato).offset().top
+            }, 800, function() {
+                window.location.hash = gato;
+            });
+        }
+    });
 });
