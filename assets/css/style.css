@@ -33,7 +33,7 @@ main h2 {
 /* Start: nav styles*/
 
 .logo {
-    width: 10em;
+    width: 12.5rem;
     height: auto;
     object-fit: cover;
 }
@@ -84,9 +84,6 @@ section hr {
 /* End: header styles*/
 
 
-/* Start: about section styles*/
-
-
 /* Start: section icons skills styles*/
 
 .toolsContent_container ul {
@@ -108,15 +105,6 @@ section hr {
 /* End: section icons skills styles*/
 
 
-/* End: about section styles*/
-
-
-/* Start: experience section styles*/
-
-
-/* End: experience section styles*/
-
-
 /* Start: works section styles*/
 
 #works hr {
@@ -124,14 +112,12 @@ section hr {
     width: 25%;
 }
 
+.card-deck .card {
+    margin-bottom: 1.875rem;
+}
+
 
 /* End: works section styles*/
-
-
-/* Start: contact section styles*/
-
-
-/* End: contact section styles*/
 
 
 /* Start: footer styles*/
@@ -148,5 +134,8 @@ footer {
         background-size: cover;
         /*background: linear-gradient(90deg, rgba(131, 58, 180, .3) 0%, rgba(253, 29, 29, .7) 50%, rgba(252, 176, 69, .3) 100%), url(../img/Sin\ título-1.png) no-repeat center;*/
         background: linear-gradient(90deg, rgba(131, 58, 180, .5) 0%, rgba(23, 162, 184, 1) 50%, rgba(71, 252, 69, .2) 100%), url(../img/Sin\ título-1.png) no-repeat left;
+    }
+    .card-deck .card {
+        margin-bottom: 0rem;
     }
 }
