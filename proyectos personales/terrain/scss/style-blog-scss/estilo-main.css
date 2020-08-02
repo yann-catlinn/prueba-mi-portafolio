@@ -1,0 +1,76 @@
+/*estilos main*/
+.carousel {
+  width: 100vw; }
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0; }
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px; }
+
+.carousel-inner .card-img {
+  width: 100%;
+  /* Set width to 100% */
+  margin: auto;
+  min-height: 200px; }
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; } }
+.carousel-inner .card-img.first-car-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/blog-featherless-pic.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh; }
+
+.carousel-inner .card-img.sec-car-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/elige-carpa-blog.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh; }
+
+.carousel-inner .card-img.thrd-car-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/coffee-blog.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh; }
+
+.carousel-inner h2 {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 30px;
+  color: #fff; }
+
+.carousel-inner h3 {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 47px;
+  color: #fff;
+  text-transform: capitalize; }
+
+.carousel-inner p {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  color: #fff; }
+
+.carousel-inner .btn {
+  background-color: #EA943D;
+  color: #fff;
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px; }
+
+/*# sourceMappingURL=estilo-main.css.map */

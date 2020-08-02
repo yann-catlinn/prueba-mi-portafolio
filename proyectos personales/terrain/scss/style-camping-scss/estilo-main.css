@@ -1,0 +1,131 @@
+/*estilos main*/
+.carousel {
+  width: 100vw; }
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0; }
+
+.carousel-inner .card-img {
+  width: 100%;
+  /* Set width to 100% */
+  margin: auto;
+  min-height: 200px; }
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; } }
+.carousel-inner .card-img.first-car-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/blog-featherless-pic.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh; }
+
+.carousel-inner .card-img.sec-car-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/elige-carpa-blog.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh; }
+
+.carousel-inner .card-img.thrd-car-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/coffee-blog.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh; }
+
+.carousel-inner h2 {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 30px;
+  color: #fff; }
+
+.carousel-inner h3 {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 47px;
+  color: #fff;
+  text-transform: capitalize; }
+
+.carousel-inner p {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  color: #fff; }
+
+.carousel-inner .btn {
+  background-color: #EA943D;
+  color: #fff;
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px; }
+
+.dropdown .overlay:hover {
+  opacity: 1;
+  width: 100vw;
+  height: 100vh; }
+
+#breadcrumbs {
+  background-color: #000;
+  width: 100vw;
+  heigth: 60px;
+  display: inline-block; }
+
+.breadcrumb {
+  background: 0; }
+
+/*fin estilos header*/
+/*estilos main*/
+.carousel {
+  width: 100vw; }
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0; }
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px; }
+
+.carousel-inner img {
+  width: 100%;
+  /* Set width to 100% */
+  margin: auto;
+  min-height: 200px; }
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; } }
+/*estilos seccion menu imagen*/
+/*fin estilos seccion menu imagen*/
+.seccion-menu-imagen h2 {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 83px !important;
+  color: #000; }
+
+.seccion-menu-imagen img {
+  opacity: 0.7;
+  position: relative;
+  right: 18px;
+  margin: auto;
+  padding: 0;
+  width: 70%; }
+
+#products .column.mid {
+  position: relative;
+  top: 200px; }
+
+/*# sourceMappingURL=estilo-main.css.map */

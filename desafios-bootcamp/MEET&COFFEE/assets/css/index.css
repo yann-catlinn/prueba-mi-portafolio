@@ -1,0 +1,249 @@
+/********************* Start: index.html styles*****************************/
+
+
+/*general styles*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100vw;
+    height: auto;
+    display: block;
+}
+
+html,
+body {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #ffffff;
+    width: 100%;
+    height: auto;
+}
+
+p {
+    font-size: 25px;
+    letter-spacing: 0.3px;
+}
+
+
+/*nav styles*/
+
+#topNav {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    text-align: left;
+    padding: 1.25rem 4rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#topNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+#topNav ul li {
+    float: left;
+    font: 25px;
+    margin: 0 1em;
+    letter-spacing: 0.25px;
+}
+
+#topNav a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 8px;
+}
+
+svg {
+    width: 44px;
+    height: 44px;
+    fill: #ffffff;
+}
+
+
+/*main styles*/
+
+header,
+section {
+    height: auto;
+}
+
+.oscuro {
+    background: #000f08;
+    color: #ffffff;
+    text-align: left;
+    font: Regular 25px/34px Open Sans;
+    letter-spacing: 0px;
+}
+
+
+/*Start: hero section*/
+
+#index #header {
+    background-image: url(../img/bg-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 0.125em 0.25em 0.125em #707070;
+    padding: 6.25rem 3.125rem;
+    width: 100vw;
+}
+
+#index h1,
+#index .headerContent h2 {
+    color: #ffffff;
+    text-align: right;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+#index h2 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+section h2 {
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/*End: hero section*/
+
+
+/*Start: place section*/
+
+#ubicacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 153px;
+    margin-bottom: 100px;
+}
+
+
+/*End: place section*/
+
+
+/*Start: next talk section*/
+
+#charla {
+    background: #A4452C;
+    display: inline-block;
+    width: 100%;
+    padding: 5% 20%;
+}
+
+#charla img {
+    float: left;
+    margin-right: 30px;
+}
+
+#charla h3 {
+    font-size: 20px;
+}
+
+#charla h4 {
+    font-size: 33px;
+}
+
+
+/*End: next talk section*/
+
+
+/*Start: last events section*/
+
+#eventos {
+    display: inline-block;
+    width: 100%;
+    margin: 10% 0;
+}
+
+#eventos .eventosContent {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 0 5%;
+    margin-top: 50px;
+}
+
+#eventos article {
+    float: left;
+    margin-right: 10px;
+}
+
+#eventos img {
+    object-fit: cover;
+    max-width: 100%;
+}
+
+#eventos h3 {
+    font-size: 35px;
+    font-weight: normal;
+}
+
+
+/*End: las events section*/
+
+
+/*Footer styles*/
+
+footer {
+    height: 284px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+footer nav {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+footer nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer nav ul li {
+    float: left;
+    font: 25px;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 8px;
+}
+
+
+/********************* End: index.html styles*****************************/

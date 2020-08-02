@@ -1,0 +1,171 @@
+        /*general styles*/
+        
+        body {
+            text-align: center;
+            color: #000f08;
+            margin: 0;
+            font-family: 'Open Sans', sans-serif;
+        }
+        
+        body * {
+            margin: 0;
+            border: 0;
+            padding: 0;
+        }
+        
+        section,
+        footer {
+            margin-top: 4.5rem;
+        }
+        
+        h2 {
+            font-weight: 700;
+            font-size: 2.5em;
+        }
+        
+        h3 {
+            font-size: 2em;
+        }
+        
+        h4 {
+            font-size: 1.75em;
+        }
+        
+        h5 {
+            font-size: 1.25em;
+        }
+        /*footer y nav*/
+        
+        .oscuro {
+            background: #000f08;
+            color: #ffffff;
+        }
+        
+        .oscuro a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        /*nav*/
+        
+        nav {
+            text-align: left;
+            padding: 1.25rem 4rem;
+            position: fixed;
+            width: 100vw;
+        }
+        
+        nav ul {
+            list-style-type: none;
+        }
+        
+        nav ul li {
+            display: inline-block;
+            margin: 0 1em;
+            vertical-align: middle;
+        }
+        /*tamaño y color de icono svg*/
+        
+        .icono {
+            width: 2rem;
+        }
+        
+        .icono svg {
+            fill: #ffffff;
+        }
+        /*proxima charla section*/
+        
+        .sweet-brown {
+            text-align: left;
+            background: #a4452c;
+            color: #ffffff;
+            padding: 3.125rem;
+            white-space: nowrap;
+        }
+        
+        .charla-speaker,
+        .charla-texto,
+        .evento {
+            display: inline-block;
+        }
+        
+        .centrado {
+            width: 75%;
+            margin: 0 auto;
+        }
+        
+        .charla-speaker {
+            width: 25%;
+            vertical-align: middle;
+        }
+        
+        .charla-texto {
+            width: 72.5%;
+            vertical-align: middle;
+            margin-left: 2.5%;
+            white-space: normal;
+        }
+        
+        .sweet-brown h3,
+        .sweet-brown h5 {
+            margin-bottom: 0.5em;
+        }
+        /*hero section header styles*/
+        
+        .hero-section {
+            text-align: right;
+            background-image: url('../img/bg-hero.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #ffffff;
+            text-shadow: 0.125em 0.25em 0.125em #707070;
+            /* Esta línea la pasamos a em */
+            /*padding para el título del header*/
+            /*Lo que hicimos fue añadirle 50px arriba al lado derecho y al lado izquierdo y 250px hacia abajo.*/
+            /*padding: 50px 50px 250px 50px;*/
+            padding: 3.125rem 3.125rem;
+        }
+        
+        h1 {
+            font-weight: 800;
+            font-size: 3.75em;
+            margin-bottom: 0.25em;
+        }
+        /*h2 con class subtitulo y h4 y h5 de section proxima-charla*/
+        
+        .subtitulo,
+        h4,
+        h5 {
+            font-weight: 400;
+        }
+        /*eventos anteriores*/
+        
+        article.evento {
+            width: 30%;
+        }
+        
+        article.evento img {
+            width: 75%;
+        }
+        
+        #eventos h2 {
+            margin-bottom: 1em;
+        }
+        
+        #eventos h3 {
+            margin: 1em auto;
+        }
+        /*footer*/
+        
+        footer {
+            /*para darle el espacio*/
+            padding: 3.125rem;
+        }
+        
+        footer i {
+            margin: 0 0.25em 0.5em 0.25em;
+        }
+        /*unicacion*/
+        
+        #ubicacion h2 {
+            margin: 1em auto;
+        }

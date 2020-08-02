@@ -1,0 +1,381 @@
+@charset "UTF-8";
+/* CSS e-commerce Terrain Document */
+/*Author: Yanara Catrilelbún
+  Project: Terrain Website redesign
+  web address: www.terrain.cl*/
+/*Estilos generales*/
+/*fin estilos generales*/
+/*estilos header*/
+/* CSS e-commerce Terrain Document */
+/* mis estilos generales*/
+body {
+  width: 100vw;
+  margin: auto;
+  padding: 0; }
+
+/*fin mis estilos generales*/
+/*estilos header*/
+/*estilos menu*/
+/*marca logo menu del nav*/
+.navbar-brand img {
+  width: 68px;
+  height: 80px;
+  position: relative;
+  top: 8px; }
+
+/*estilos tipograficos de menu*/
+header .nav-link.dropdown-toggle {
+  font-family: futura-pt-condensed, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  color: #FFFFFF !important;
+  text-transform: uppercase; }
+
+.sub-wrapper-vfx a {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #fff;
+  font-size: 50px;
+  text-transform: uppercase; }
+
+.accordion .sub-wrapper-vfx .card-body {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #838080;
+  font-size: 24px; }
+
+/*estilos iconos del menu*/
+#icons-nav ul li {
+  float: right;
+  margin-right: 24px; }
+
+#icons-nav ul li a img {
+  width: 25px;
+  height: 25px; }
+
+/*estilos para menu desplegable*/
+header nav {
+  height: 80px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)); }
+
+.sub-wrapper-vfx {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: 0;
+  border: 0;
+  opacity: 0;
+  font-family: sans-serif;
+  font-size: 90pt;
+  transition: 500ms;
+  top: 78px;
+  left: 0; }
+
+header ul li {
+  position: relative; }
+
+header .accordion .card, header .accordion .card-header {
+  background: 0;
+  border: 0; }
+
+/*hover menu*/
+.dropdown .sub-wrapper-vfx:hover {
+  opacity: 1;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0px;
+  background: #000; }
+
+.accordion.dropdown .sub-wrapper-vfx:hover {
+  opacity: 0.8;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0px;
+  background: #000; }
+
+.dropdown .sub-wrapper-vfx a:hover {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #919191;
+  font-size: 50px;
+  text-transform: uppercase; }
+
+.accordion .sub-wrapper-vfx .card-header h4 .btn-link {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #fff;
+  font-size: 50px;
+  text-transform: uppercase; }
+
+#collapseOne .card-body {
+  color: #fff; }
+
+#collapseTwo .card-body h5.card-title {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 800 !important;
+  font-style: normal;
+  font-size: 30px !important;
+  color: #fff;
+  text-transform: capitalize; }
+
+#collapseTwo .card ul h6 {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 800 !important;
+  font-style: normal;
+  font-size: 24px !important;
+  color: #EA943D;
+  text-transform: capitalize; }
+
+#collapseTwo .card ul p {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  color: #fff; }
+
+a .card.two:hover, a .card:hover, .card #collapseTwo ul.list-group-flush li {
+  background-color: #000; }
+
+#collapseThree address {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  color: #fff !important; }
+
+#collapseThree address h5, #collapseThree address .strong {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 800 !important;
+  font-style: normal;
+  font-size: 16px !important;
+  color: #fff;
+  text-transform: capitalize; }
+
+/*estilo menu nosotros*/
+/*estilos footer hover header menu*/
+/*estilos footer*/
+/*newsletter*/
+header .newslett {
+  background-color: #000000;
+  height: 35vh;
+  position: relative;
+  top: 20vh; }
+
+header .newsletter-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  margin: 2px 0px; }
+
+header .newsletter-row .form-newsletter-card {
+  margin: 0px;
+  line-height: 0.2; }
+
+/*nosotros*/
+header .nosotros-row {
+  background-color: #000;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff; }
+
+header .nosotros-row a {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px; }
+
+/*footer*/
+header .social-icons img {
+  width: 70px;
+  height: 40px; }
+
+header .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 20px; }
+
+header .footer-row {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+header .form-newsletter-card {
+  border: 0;
+  background: 0; }
+
+header .form-newsletter-card .card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+header .form-newsletter-card .btn {
+  background-color: #EA943D;
+  border: 0;
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 18px;
+  color: #000000; }
+
+header .form-newsletter-card h5 {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 24px;
+  color: #fff; }
+
+header .form-newsletter-card input.form-control {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 26px;
+  width: 35vw !important;
+  text-align: center; }
+
+/*fin estilos footer del hover desplegable del menu*/
+/*fin estilos header*/
+.dropdown .overlay:hover {
+  opacity: 1;
+  width: 100vw;
+  height: 100vh; }
+
+#breadcrumbs {
+  background-color: #000;
+  width: 100vw;
+  heigth: 60px;
+  display: inline-block; }
+
+.breadcrumb {
+  background: 0; }
+
+/*fin estilos header*/
+/*estilos main*/
+.carousel {
+  width: 100vw; }
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0; }
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px; }
+
+.carousel-inner .card-img {
+  width: 100%;
+  /* Set width to 100% */
+  margin: auto;
+  min-height: 200px; }
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; } }
+.carousel-inner .card-img.first-car-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/blog-featherless-pic.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh; }
+
+.carousel-inner .card-img.sec-car-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/elige-carpa-blog.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh; }
+
+.carousel-inner .card-img.thrd-car-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/coffee-blog.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh; }
+
+.carousel-inner h2 {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 30px;
+  color: #fff; }
+
+.carousel-inner h3 {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 47px;
+  color: #fff;
+  text-transform: capitalize; }
+
+.carousel-inner p {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  color: #fff; }
+
+.carousel-inner .btn {
+  background-color: #EA943D;
+  color: #fff;
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px; }
+
+/*estilos section articulos del blog*/
+.fecha-titulo-articulo {
+  display: flex;
+  justify-content: space-between; }
+
+/*estilos footer*/
+/*newsletter*/
+.newsletter-row {
+  background-color: #4E4E4E;
+  height: 30vh; }
+
+/*nosotros*/
+.nosotros-row {
+  background-color: #000;
+  height: 15vh; }
+
+/*footer*/
+.footer-row {
+  background-color: #fff;
+  height: 10vh; }
+
+footer .footer-row .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.form-newsletter-card {
+  border: 0;
+  background: 0; }
+
+.form-newsletter-card .btn {
+  background-color: #EA943D;
+  border: 0; }
+
+/*fin estilos footer*/
+
+/*# sourceMappingURL=style-blog.css.map */

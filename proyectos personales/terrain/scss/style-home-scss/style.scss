@@ -1,0 +1,512 @@
+
+/* CSS e-commerce Terrain Document */
+/* mis estilos generales*/
+/*fin mis estilos generales*/
+/*estilos header*/
+body {
+	width: 100vw;
+	margin: auto;
+	padding: 0;
+}
+/*estilos menu*/
+/*marca logo menu del nav*/
+.navbar-brand img {
+	width: 68px;
+	height: 80px;
+	position: relative;
+	top: 8px;
+}
+/*estilos tipograficos de menu*/
+header .nav-link.dropdown-toggle{
+	font-family: futura-pt-condensed, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 23px;
+	color: #FFFFFF !important;
+	text-transform: uppercase;
+}
+
+.sub-wrapper-vfx a {
+	font-family: futura-pt-condensed, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	color: #fff;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+.accordion .sub-wrapper-vfx .card-body{
+    font-family: futura-pt-condensed, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color: #838080;
+	font-size: 24px;
+}
+/*estilos iconos del menu*/
+#icons-nav ul li {
+	float: right;
+	margin-right: 24px;	
+}
+#icons-nav ul li a img {
+	width: 25px;
+	height: 25px;
+}
+/*estilos para menu desplegable*/
+header nav {
+	height: 80px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8));
+}
+.sub-wrapper-vfx{
+	position: absolute;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+	background: 0;
+	border: 0;
+    opacity: 0;
+    font-family: sans-serif;
+    font-size: 90pt;
+    transition: 500ms;
+    top: 78px;
+    left: 0;
+}
+header ul li {
+	position: relative;
+}
+header .accordion .card, header .accordion .card-header{
+	background: 0;
+	border: 0;
+}
+/*hover menu*/
+.dropdown .sub-wrapper-vfx:hover{
+    opacity: 1;
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+    left: 0px;
+	background: #000;
+}
+.accordion.dropdown .sub-wrapper-vfx:hover{
+    opacity: 0.8;
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+    left: 0px;
+	background: #000;
+}
+.dropdown .sub-wrapper-vfx a:hover{
+    font-family: futura-pt-condensed, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	color: #919191;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+.accordion .sub-wrapper-vfx .card-header h4 .btn-link {
+	font-family: futura-pt-condensed, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	color: #fff;
+	font-size: 50px;
+	text-transform: uppercase;	
+}
+#collapseOne .card-body {
+	color: #fff;	
+}
+#collapseTwo .card-body h5.card-title {
+	font-family: futura-pt-condensed, sans-serif;
+	font-weight: 800 !important;
+	font-style: normal;
+	font-size: 30px !important;
+	color: #fff;
+	text-transform: capitalize;
+}
+#collapseTwo .card ul h6 {
+	font-family: futura-pt-condensed, sans-serif;
+	font-weight: 800 !important;
+	font-style: normal;
+	font-size: 24px !important;
+	color: #EA943D;
+	text-transform: capitalize;
+}
+#collapseTwo .card ul p {
+	font-family: futura-pt-condensed, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 18px;
+	color: #fff;
+}
+a .card.two:hover, a .card:hover, .card #collapseTwo ul.list-group-flush li {
+    background-color: #000;
+}
+#collapseThree address {
+	font-family: futura-pt-condensed, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 16px;
+	color: #fff !important;
+}
+#collapseThree address h5, #collapseThree address .strong {
+	font-family: futura-pt-condensed, sans-serif;
+	font-weight: 800 !important;
+	font-style: normal;
+	font-size: 16px !important;
+	color: #fff;
+	text-transform: capitalize;
+}
+/*estilo menu nosotros*/
+/*estilos footer hover header menu*/
+/*estilos footer*/
+/*newsletter*/
+header .newslett {
+    background: 0;
+	height: 35vh;
+	position: relative;
+	top: 20vh;
+}
+header .newsletter-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20vh;
+	margin: 2px 0px;
+}
+header .newsletter-row .form-newsletter-card {
+	margin: 0px;
+	line-height: 0.2;
+}
+/*nosotros*/
+header .nosotros-row {
+	background-color: #000;
+	height: 7vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+}
+header .nosotros-row a {
+    font-family: futura-pt-condensed, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 24px;
+}
+/*footer*/
+header .social-icons img {
+	width: 70px;
+	height: 40px;
+}
+header .social-icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	padding: 20px;
+	
+}
+header .footer-row {
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header .form-newsletter-card {
+	border: 0;
+	background: 0;
+}
+header .form-newsletter-card .card-body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+header .form-newsletter-card .btn {
+	background-color: #EA943D;
+	border: 0;
+	font-family: futura-pt-condensed, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 18px;
+	color: #000000;
+}
+header .form-newsletter-card h5 {
+	font-family: futura-pt-condensed, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 24px;
+	color: #fff;
+}
+header .form-newsletter-card input.form-control {
+	font-family: futura-pt-condensed, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 26px;
+    width: 35vw!important;
+	text-align: center;
+}
+
+
+/*fin estilos footer del hover desplegable del menu*/
+
+
+/*fin estilos header*/
+/*estilos main*/
+.hero {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("../img/hero-home.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+.titulo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: relative;
+	top: 300px;
+	color: #fff;
+	font-family: futura-pt-condensed, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 53px;
+}
+
+/*estilos section menu categorias contenidos*/
+.menu-white {
+	background-color: #FFF;
+	color: #000000;
+	height: 70vh;
+	padding: 0px;
+	margin: auto;
+
+}
+.menu-white ul li a {
+	font-family: futura-pt-condensed, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 40px;
+	color: #919191;
+    
+}
+.menu-white ul li a h2 {
+	font-family: futura-pt-condensed, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 73px;
+	color: #000000;
+}
+
+/*primera fila urbano*/
+.urban-pic-menu {
+	background-image: url("../img/urban-pic-menu.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	height: 70vh;
+}
+/*segunda fila outdoor*/
+.outdoor-pic-menu {
+	background-image: url("../img/outdoor-pic-menu.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	height: 70vh;
+}
+/*tercera fila camping*/
+.camping-pic-menu {
+	background-image: url("../img/camping-pic-menu.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	height: 70vh;
+}
+/*cuarta fila trekking*/
+.trekking-pic-menu {
+	background-image: url("../img/trekking-pic-menu.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	height: 70vh;
+}
+/*fin estilos section menu categorias contenidos*/
+/*estilos seccion blog*/
+.blog-featherless-pic {
+	background-image: url("../img/blog-featherless-pic.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	height: 50vh;
+}
+.menu-white-blog {
+	background-color: #FFF;
+	color: #000000;
+	height: 50vh;
+}
+#logo-fondo {
+	background-image: url("../img/logo.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+	margin: auto;
+	padding: 0;
+	height: 100%;
+	width: 100%;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	opacity: 0.4;
+}
+#logo-fondo h2 {
+	font-family: futura-pt-condensed, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 63px;
+	text-transform: uppercase;
+	color: #000000 !important;
+}
+#logo-fondo p {
+	font-family: futura-pt-condensed, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 43px;
+	color: #000000 !important;
+	line-height: 0.8;
+}
+/*fin estilos seccion blog*/
+
+/*estilos footer*/
+/*newsletter*/
+.newslett {
+	background-color: #4E4E4E;
+	height: 35vh;
+}
+.newsletter-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*nosotros*/
+.nosotros-row {
+	background-color: #000;
+	height: 6vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+}
+.nosotros-row a {
+	color: #fff;
+}
+/*footer*/
+.social-icons img {
+	width: 70px;
+	height: 40px;
+}
+.social-icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	padding: 20px;
+	
+}
+.footer-row {
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.form-newsletter-card {
+	border: 0;
+	background: 0;
+}
+.form-newsletter-card .card-body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.form-newsletter-card .btn {
+	background-color: #EA943D;
+	border: 0;
+	font-family: futura-pt-condensed, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 18px;
+	color: #000000;
+}
+.form-newsletter-card h5 {
+	font-family: futura-pt-condensed, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 24px;
+	color: #fff;
+}
+.form-newsletter-card input.form-control {
+	font-family: futura-pt-condensed, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 26px;
+    width: 35vw!important;
+	text-align: center;
+}
+footer .copyright {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #000;
+}
+#medios-pago {
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+	color: #000;
+}
+#medios-pago .icons {
+	margin-left: 20px;
+}
+#medios-pago .icons img {
+	margin-left: 10px;
+}
+#medios-pago img {
+	width: 30px;
+	height: 30px;
+}
+
+/*fin estilos footer*/
+
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-color: #000;
+  height: 250px;
+  width: 50px;
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+

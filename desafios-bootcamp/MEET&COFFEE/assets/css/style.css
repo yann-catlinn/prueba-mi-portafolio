@@ -1,0 +1,195 @@
+/********************* Start: general styles************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    display: block;
+}
+
+html,
+body {
+    box-sizing: inherit;
+}
+
+body {
+    text-align: center;
+    color: #000f08;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 2539px;
+    width: 1920px;
+}
+
+html {
+    width: 1920px;
+    height: 2823px;
+}
+
+
+/********************* End: general styles*****************************/
+
+
+/********************* Start: for revision styles************************/
+
+
+/*.oscuro style class for nav and footer*/
+
+.oscuro {
+    background: #000f08;
+    color: #ffffff;
+}
+
+
+/*content class style for content*/
+
+.content {
+    margin-top: 196px;
+    margin-bottom: 404px;
+    margin-left: 418px;
+    margin-right: 417px;
+    width: 1085px;
+    height: 2223px;
+}
+
+
+/********************* End: general styles*****************************/
+
+
+/********************* Start: nav styles*****************************/
+
+#topNav {
+    display: inline-block;
+    text-align: left;
+    padding: 1.25rem 4rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99px;
+    width: 1920px;
+}
+
+#topNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+#topNav ul li {
+    margin: 0 1em;
+    float: left;
+    vertical-align: middle;
+    text-align: left;
+    font: Regular 25px/34px 'Open Sans';
+    letter-spacing: 0.25px;
+}
+
+#topNav a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 8px;
+}
+
+#topNav svg {
+    fill: #ffffff;
+    width: 44px;
+    height: 44px;
+}
+
+
+/********************* End: nav styles*****************************/
+
+
+/********************* Start: main content styles*****************************/
+
+main {
+    height: 2627px;
+}
+
+header {
+    margin-bottom: 73px;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: left;
+    font: 800 45px/61px 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    color: #000F08;
+    margin-bottom: 73px;
+}
+
+h2 {
+    text-align: left;
+    font: 800 40px/55px 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: #000F08;
+    margin: 34px 0px;
+}
+
+.content p {
+    text-align: left;
+    font: regular 40px/55px 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #000F08;
+    margin-bottom: 20px;
+}
+
+
+/********************* End: main content styles*****************************/
+
+
+/********************* Start: footer styles*****************************/
+
+footer {
+    margin-top: 4.5rem;
+    padding: 3.125rem;
+    width: 1920px;
+    height: 284px;
+}
+
+footer nav {
+    display: inline-block;
+    height: auto;
+}
+
+footer nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer nav ul li {
+    float: left;
+    font: 25px;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 8px;
+}
+
+
+/********************* End: footer styles*****************************/

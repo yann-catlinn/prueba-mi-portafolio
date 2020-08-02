@@ -1,0 +1,166 @@
+/*Start: General styles*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+}
+
+body * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+p {
+    font-weight: 300;
+}
+
+.center {
+    width: 75%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 4.5rem 0;
+}
+
+
+/*End: General styles*/
+
+
+/*Start: header styles*/
+
+h1 {
+    font-size: 3.125em;
+    font-weight: 500;
+    padding: 0.4rem 0rem;
+}
+
+#title {
+    width: 100vw;
+    height: auto;
+}
+
+
+/*End: header styles*/
+
+
+/*Start: hero section styles*/
+
+.hero-section {
+    background-image: url(../img/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
+
+/*End: hero section styles*/
+
+
+/*Start: Description styles*/
+
+.desc-section,
+.pics-section,
+#title {
+    background-color: #000000;
+}
+
+.desc-section {
+    white-space: nowrap;
+}
+
+.desc-section .text {
+    font-size: 1em;
+    text-align: left;
+}
+
+.img-description {
+    width: 35%;
+    vertical-align: middle;
+}
+
+.text {
+    width: 54.5%;
+    vertical-align: middle;
+    margin-right: 5.5%;
+    white-space: normal;
+}
+
+.img-description img,
+.pics-section .foto {
+    object-fit: cover;
+    max-width: 100%;
+}
+
+
+/*End: Description styles*/
+
+
+/*Start: icons section styles*/
+
+.icons-section,
+footer {
+    background-color: #1e1a13;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 2.5em;
+    margin-bottom: 1.2em;
+}
+
+.icons-section ul li p {
+    font-size: 1.2em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li,
+.text,
+.img-description,
+.imagen-foto {
+    display: inline-block;
+}
+
+.icons-section ul li i {
+    margin: 0 1.7em 0.4em 1.7em;
+}
+
+
+/*End: icons section styles*/
+
+
+/*Start: pics section styles*/
+
+.imagen-foto {
+    width: 30%;
+}
+
+.foto {
+    width: 95%;
+}
+
+
+/*End: pics section styles*/
+
+
+/*Start: footer styles*/
+
+footer {
+    padding: 2.5rem 1rem;
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+}
+
+
+/*End: footer styles*/

@@ -1,0 +1,104 @@
+/*inicio estilos footer*/
+/*estilos footer*/
+/*newsletter*/
+.newslett {
+  background-color: #4E4E4E;
+  height: 35vh; }
+
+.newsletter-row {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/*nosotros*/
+.nosotros-row {
+  background-color: #000;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff; }
+
+.nosotros-row a {
+  color: #fff; }
+
+/*footer*/
+.social-icons img {
+  width: 70px;
+  height: 40px; }
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 20px; }
+
+.footer-row {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.form-newsletter-card {
+  border: 0;
+  background: 0; }
+
+.form-newsletter-card .card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.form-newsletter-card .btn {
+  background-color: #EA943D;
+  border: 0;
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 18px;
+  color: #000000; }
+
+.form-newsletter-card h5 {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 24px;
+  color: #fff; }
+
+.form-newsletter-card input.form-control {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 26px;
+  width: 35vw !important;
+  text-align: center; }
+
+footer .copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000; }
+
+#medios-pago {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  color: #000; }
+
+#medios-pago .icons {
+  margin-left: 20px; }
+
+#medios-pago .icons img {
+  margin-left: 10px; }
+
+#medios-pago img {
+  width: 30px;
+  height: 30px; }
+
+/*fin estilos footer*/
+/*fin estilos footer*/
+
+/*# sourceMappingURL=estilos-footer.css.map */

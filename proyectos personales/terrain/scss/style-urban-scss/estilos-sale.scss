@@ -1,0 +1,31 @@
+/*inicio estilos seccion sale*/
+.sale {
+  position: relative; 
+  margin: 0 auto;
+  width: 100%;
+}
+
+.sale .content {
+  position: absolute; /* Position the background text */
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff; 
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.sale .content h2 {
+	font-family: futura-pt-condensed, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 73px !important;	
+}
+.sale .content p {
+	font-family: futura-pt-condensed, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 50px!important;	
+}
+/*fin estilos seccion sale*/

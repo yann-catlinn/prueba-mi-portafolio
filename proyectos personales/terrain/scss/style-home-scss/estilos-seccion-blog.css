@@ -1,0 +1,47 @@
+/*estilos seccion blog*/
+.blog-featherless-pic {
+  background-image: url("../img/blog-featherless-pic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 50vh; }
+
+.menu-white-blog {
+  background-color: #FFF;
+  color: #000000;
+  height: 50vh; }
+
+#logo-fondo {
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  margin: auto;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0.4; }
+
+#logo-fondo h2 {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 63px;
+  text-transform: uppercase;
+  color: #000000 !important; }
+
+#logo-fondo p {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 43px;
+  color: #000000 !important;
+  line-height: 0.8; }
+
+/*fin estilos seccion blog*/
+
+/*# sourceMappingURL=estilos-seccion-blog.css.map */

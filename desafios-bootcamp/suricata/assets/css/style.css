@@ -1,0 +1,121 @@
+/*Start: general styles*/
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #373A3C;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-size: 2.19em;
+    color: #707070;
+}
+
+h1,
+h2,
+h5 {
+    font-weight: 700;
+}
+
+
+/*End: general styles*/
+
+
+/*Start: nav and footer styles*/
+
+.barColor {
+    background-color: #E83E8C;
+}
+
+.navbar-brand {
+    width: 8.25rem;
+    height: 3.31rem;
+}
+
+#footer img {
+    width: 2.24rem;
+    height: 4.3rem;
+}
+
+
+/*End:header styles*/
+
+
+/*Start: main  styles*/
+
+a {
+    color: #1C7CD5;
+}
+
+h5.card-title {
+    font-size: 1.06em;
+}
+
+.list-group-item,
+.card-link {
+    font-size: 0.7em
+}
+
+
+/*bg-info class has the color #17A2B8 for article's footer color*/
+
+div.bg-info {
+    height: 10.6rem;
+}
+
+footer .bg-info h2 {
+    font-size: 2.5em;
+}
+
+
+/*End: main styles*/
+
+
+/*footer*/
+
+
+/*media queries*/
+
+
+/*Media queries medium devices (tablets, 768px and up)*/
+
+@media only screen and (min-width: 768px) {
+    /*header style title*/
+    h1.text-center {
+        font-size: 3.75em;
+    }
+    /*card font sizes*/
+    h5.card-title {
+        font-size: 1.375em;
+    }
+    .list-group-item,
+    .card-link {
+        font-size: 0.625em
+    }
+}
+
+@media (max-width: 768px) {
+    .fa-4x {
+        font-size: 2em;
+    }
+    #footer img {
+        width: 3.33rem;
+        height: 6.28rem;
+    }
+    footer .bg-info h2 {
+        font-size: 1.5em;
+    }
+}

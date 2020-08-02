@@ -1,0 +1,105 @@
+/*Start: general styles*/
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #373A3C;
+    background-color: #ffffff;
+}
+
+body,
+.card-subtitle,
+h5.card-title,
+.form-control {
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 1.3125em;
+}
+
+h2,
+p.card-text.text-success {
+    font-weight: 500;
+}
+
+
+/*End: general styles*/
+
+
+/*Start: nav and footer styles*/
+
+.navbar-brand {
+    width: 5.375rem;
+    height: 1.5625rem;
+}
+
+footer img {
+    max-width: 5.125rem;
+    max-height: 1.5rem;
+}
+
+
+/*End:nav and footer styles*/
+
+
+/*Start: main  styles*/
+
+h5.card-title {
+    color: #212529;
+}
+
+h5.card-title,
+div.card p:nth-last-child(1) {
+    font-size: 1.25em;
+}
+
+.list-group-item,
+.card-link {
+    font-size: 0.7em
+}
+
+div.card p:nth-child(3) {
+    font-size: 0.815em;
+}
+
+.card {
+    border: 1px solid #DDDDDD;
+    color: #707070;
+}
+
+.card-body:nth-child(even)::after {
+    content: '';
+    border-bottom: solid 1px #DDDDDD;
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.card-body {
+    padding: 0rem 1rem;
+}
+
+
+/*End: main styles*/
+
+
+/*Start: contact's section styles*/
+
+.btn-submt {
+    background-color: #F8F9FA;
+}
+
+
+/*End: contact's section styles styles*/

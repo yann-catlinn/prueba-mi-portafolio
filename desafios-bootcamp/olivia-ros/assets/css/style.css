@@ -1,0 +1,32 @@
+/*general styles*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+html,
+body {
+    width: fit-content;
+}
+
+
+/*for mobile phones*/
+
+
+/*header styles*/
+
+header {
+    background-image: url('../img/bg-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding-bottom: 10rem;
+}
+
+footer {
+    background-color: #000000;
+}

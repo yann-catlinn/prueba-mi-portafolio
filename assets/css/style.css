@@ -1,0 +1,152 @@
+/* Start: general styles*/
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #ffffff;
+    width: 100%;
+    height: auto;
+}
+
+main p {
+    font-size: 1.125em;
+}
+
+main h2 {
+    font-size: 2em;
+}
+
+
+/* End: general styles*/
+
+
+/* Start: nav styles*/
+
+.logo {
+    width: 10em;
+    height: auto;
+    object-fit: cover;
+}
+
+nav.fixed-top {
+    box-shadow: 0 0 5px 0px #333;
+    font-weight: 400;
+}
+
+
+/* End: nav styles*/
+
+
+/* Start: header styles*/
+
+header {
+    /*background: linear-gradient(90deg, rgba(131, 58, 180, .3) 0%, rgba(253, 29, 29, .7) 50%, rgba(252, 176, 69, .025) 100%), url(../img/mifoto1.png) no-repeat center top;*/
+    background: linear-gradient(180deg, rgba(131, 58, 180, .5) 0%, rgba(23, 162, 184, .5) 50%, rgba(71, 252, 69, .2) 100%), url(../img/mifoto1.png) no-repeat left;
+    background-size: cover;
+    max-width: 100vw;
+    min-height: 80vh;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, .5);
+    font-weight: 900;
+    font-size: 4.375em;
+    text-transform: uppercase;
+}
+
+header h2.lead {
+    font-weight: 400;
+    font-size: 2.5em;
+}
+
+hr {
+    border: 1px solid white;
+    width: 50%;
+}
+
+section hr {
+    border: 1px solid black;
+    width: 25%;
+}
+
+
+/* End: header styles*/
+
+
+/* Start: about section styles*/
+
+
+/* Start: section icons skills styles*/
+
+.toolsContent_container ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin: 1.25rem 0rem;
+    padding: 0;
+}
+
+.toolsContent_container .fa-stack li {
+    float: left;
+    list-style-type: none;
+    margin-left: 1.25rem;
+}
+
+
+/* End: section icons skills styles*/
+
+
+/* End: about section styles*/
+
+
+/* Start: experience section styles*/
+
+
+/* End: experience section styles*/
+
+
+/* Start: works section styles*/
+
+#works hr {
+    border: 1px solid white;
+    width: 25%;
+}
+
+
+/* End: works section styles*/
+
+
+/* Start: contact section styles*/
+
+
+/* End: contact section styles*/
+
+
+/* Start: footer styles*/
+
+footer {
+    box-shadow: 0 0 5px 0px #333;
+}
+
+
+/* End: footer styles*/
+
+@media (min-width: 768px) {
+    header {
+        background-size: cover;
+        /*background: linear-gradient(90deg, rgba(131, 58, 180, .3) 0%, rgba(253, 29, 29, .7) 50%, rgba(252, 176, 69, .3) 100%), url(../img/Sin\ título-1.png) no-repeat center;*/
+        background: linear-gradient(90deg, rgba(131, 58, 180, .5) 0%, rgba(23, 162, 184, 1) 50%, rgba(71, 252, 69, .2) 100%), url(../img/Sin\ título-1.png) no-repeat left;
+    }
+}

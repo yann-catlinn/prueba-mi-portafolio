@@ -1,0 +1,57 @@
+/*estilos section menu categorias contenidos*/
+.menu-white {
+  background-color: #FFF;
+  color: #000000;
+  height: 70vh;
+  padding: 0px;
+  margin: auto; }
+
+.menu-white ul li a {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
+  color: #919191; }
+
+.menu-white ul li a h2 {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 73px;
+  color: #000000; }
+
+/*primera fila urbano*/
+.urban-pic-menu {
+  background-image: url("../img/urban-pic-menu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 70vh; }
+
+/*segunda fila outdoor*/
+.outdoor-pic-menu {
+  background-image: url("../img/outdoor-pic-menu.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 70vh; }
+
+/*tercera fila camping*/
+.camping-pic-menu {
+  background-image: url("../img/camping-pic-menu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 70vh; }
+
+/*cuarta fila trekking*/
+.trekking-pic-menu {
+  background-image: url("../img/trekking-pic-menu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 70vh; }
+
+/*fin estilos section menu categorias contenidos*/
+
+/*# sourceMappingURL=estilo-contenidos.css.map */

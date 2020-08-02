@@ -1,0 +1,30 @@
+/*estilos footer*/
+/*newsletter*/
+.newsletter-row {
+	background-color: #4E4E4E;
+	height: 30vh;
+}
+/*nosotros*/
+.nosotros-row {
+	background-color: #000;
+	height: 15vh;
+}
+/*footer*/
+.footer-row {
+	background-color: #fff;
+	height: 10vh;
+}
+footer .footer-row .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.form-newsletter-card {
+	border: 0;
+	background: 0;
+}
+.form-newsletter-card .btn {
+	background-color: #EA943D;
+	border: 0;
+}
+/*fin estilos footer*/
