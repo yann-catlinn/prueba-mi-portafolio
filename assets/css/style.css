@@ -43,6 +43,22 @@ nav.fixed-top {
     font-weight: 400;
 }
 
+nav.fixed-top li.nav-item {
+    font-size: 1em;
+    margin: 0;
+    text-align: center;
+    -webkit-transition: font-size .5s ease;
+    -moz-transition: font-size .5s ease;
+    -o-transition: font-size .5s ease;
+    transition: font-size .5s ease;
+}
+
+nav.fixed-top li.nav-item:hover {
+    font-size: 1.125em;
+    font-weight: 700;
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, .5);
+}
+
 
 /* End: nav styles*/
 
@@ -114,6 +130,15 @@ section hr {
 
 .card-deck .card {
     margin-bottom: 1.875rem;
+}
+
+.modal-body .fa-stack {
+    margin-left: 0;
+}
+
+.modal-body .fa-stack li {
+    list-style-type: none;
+    margin-right: 10px;
 }
 
 
